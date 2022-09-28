@@ -21,6 +21,13 @@ For every story the Scrum Master will than start a poll and each member of the s
 * Statistics tab in navigation bar
 * Mobile apps with watch support. Imagine voting on Android Wear or Apple Watch. Wouldn't that be cool? :D
 
+# New
+* Jira SSO integration
+* Display all Jira text?
+* Display history from session
+* Export history
+
+
 ## Contribute
 If you want to contribute you can just clone the repository and follow the deployment instructions. Any changes must be commited to a fork and then merged by issuing a pull request. For information on the REST API or ticketing plugins please have a look at the [wiki documentation](https://github.com/Toxantron/scrumonline/blob/master/doc/).
 
