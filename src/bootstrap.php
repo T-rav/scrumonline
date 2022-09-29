@@ -4,7 +4,7 @@ use Doctrine\ORM\Tools\Setup;
 use Doctrine\ORM\EntityManager;
 use Doctrine\Common\Proxy\AbstractProxyFactory;
 
-require_once __DIR__ . "/../vendor/autoload.php";
+require_once __DIR__ . "/vendor/autoload.php";
 require_once __DIR__ . "/config.php";
 
 // Create a simple "default" Doctrine ORM configuration for Annotations
