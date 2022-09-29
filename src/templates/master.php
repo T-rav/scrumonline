@@ -56,15 +56,14 @@ include __DIR__ . "/../config.php";
 <div class="row">
   <div class="hidden-xs hidden-sm col-md-5">
     <h2>Invite members</h2>
-    <p>Invite members to join your session. Session id: <strong ng-bind="master.id"></strong></p>
 <?php
 $joinUrl = $host . "/join/";
 ?>
-    <img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=<?= urlencode($joinUrl) . "{{ master.joinFragment }}" ?>&choe=UTF-8" title="Join {{ master.id }}" />
+    
 <?php
 $joinUrl = $joinUrl . "{{ master.joinFragment }}";
 ?>
-    <p>Or send them this link: <a href="<?= $joinUrl ?>"><?= $joinUrl ?></a>
+    <p><a href="<?= $joinUrl ?>"><?= $joinUrl ?></a>
   </div>
 
   <!-- Team list and complete button -->
@@ -77,8 +76,14 @@ $joinUrl = $joinUrl . "{{ master.joinFragment }}";
     <button class="btn btn-success" ng-click="master.teamComplete = true">Team complete</button>
   </div>   
     
-  <!-- Statistics column -->
   <div class="col-xs-12 col-md-7" ng-if="master.teamComplete">
+    <div class="panel panel-default">
+      <div class="panel-heading">Story History</div>
+    </div>
+  </div>
+
+  <!-- Statistics column -->
+  <!-- <div class="col-xs-12 col-md-7" ng-if="master.teamComplete">
     <div class="panel panel-default">
       <div class="panel-heading">Statistics</div>
       <div class="panel-body">
@@ -114,5 +119,5 @@ $joinUrl = $joinUrl . "{{ master.joinFragment }}";
         </table>
       </div>
     </div>
-  </div>
+  </div> -->
 </div>
