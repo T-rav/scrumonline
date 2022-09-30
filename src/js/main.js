@@ -69,6 +69,11 @@ scrum.app.config(
       .when('/', {
       	templateUrl: 'home.html'
       })
+      .when('/history', {
+        templateUrl: 'history.html',
+        controller: 'HistoryController',
+        controllerAs: 'history'
+      })
       .when('/sessions', {
         templateUrl: 'list.html',
         controller: 'ListController',
