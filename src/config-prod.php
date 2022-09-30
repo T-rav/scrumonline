@@ -1,9 +1,9 @@
 <?php
 // database configuration parameters
 $conn = array(
-    'dbname' => 'id19646179_poker',
-    'user' => 'id19646179_pokerdb',
-    'password' => 'C#+1s/J8ilJ]Bt]M',
+    'dbname' => 'poker',
+    'user' => 'kpp',
+    'password' => 'sx0Q1Y1R12*3',
     'host' => 'localhost',
     'driver' => 'pdo_mysql',
 );
@@ -12,10 +12,10 @@ $conn = array(
 $host = "https://localhost";
 
 $cardSets = [
+    // SWAT
+    ['1','2','3','4','5','6','?','&#9749;'],
     // T-shirt Size
     ['S', 'M', '(M/L)', 'L', 'XL', '?'],
-    // SWAT
-    ['1','2','3','4','5','6','?','&#9749;']
 ];
 
 
