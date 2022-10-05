@@ -1,21 +1,21 @@
 <?php
 // database configuration parameters
 $conn = array(
-    'dbname' => 'poker',
-    'user' => 'kpp',
-    'password' => 'sx0Q1Y1R12*3',
+    'dbname' => 'id19646179_poker',
+    'user' => 'id19646179_pokerdb',
+    'password' => 'C#+1s/J8ilJ]Bt]M',
     'host' => 'localhost',
     'driver' => 'pdo_mysql',
 );
 
 // This is used to create the join link
-$host = "https://localhost";
+$host = "http://karat.tddbuddy.com";
 
 $cardSets = [
-    // SWAT
-    ['1','2','3','4','5','6','?','&#9749;'],
     // T-shirt Size
     ['S', 'M', '(M/L)', 'L', 'XL', '?'],
+    // SWAT
+    ['1','2','3','4','5','6','?','&#9749;']
 ];
 
 

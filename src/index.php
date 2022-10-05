@@ -19,8 +19,8 @@ foreach($templates as $index=>$template)
   <meta charset="utf-8">
   <base href="/">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Online planning poker</title>
-  <meta name="description" content="Scrumpoker online is an open source web implementation of planning poker for scrum teams to determine the complexity of stories. It aims to integrate ticketing systems like JIRA, Github or Gitlab.">  
+  <title>Karat planning poker</title>
+  <meta name="description" content="Scrumpoker online is an open source web implementation of karat planning poker for scrum teams to determine the complexity of stories. It aims to integrate ticketing systems like JIRA, Github or Gitlab.">  
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -60,7 +60,7 @@ foreach($templates as $index=>$template)
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-    	<a class="navbar-brand" href="/">Planning Poker</a>
+    	<a class="navbar-brand" href="/">Karat Planning Poker</a>
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
