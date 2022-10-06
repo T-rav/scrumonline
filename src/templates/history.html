@@ -1,9 +1,9 @@
 <div class="row">
   <div class="col-xs-12 col-md-8 col-md-offset-2">
-    <span class="session-private"><strong class="hidden-xs">Private</strong></span>
-    <span class="session-list left"><strong>Name</strong></span>
-    <span class="session-list center"><strong>Members</strong></span>
-    <span class="session-list right"><strong>Options</strong></span>
+    <span class="session-private"><strong class="hidden-xs">Story</strong></span>
+    <span class="session-list left"><strong>Description</strong></span>
+    <span class="session-list center"><strong>Member</strong></span>
+    <span class="session-list right"><strong>Selection</strong></span>
     <div class="list-group">
       <div class="list-group-item slim" ng-repeat="session in list.sessions track by session.id">
         <div>
@@ -29,4 +29,7 @@
       </div>
     </div>
   </div>
+</div>
+<div class="row">
+  <b> { todo : display session vote history } </b>
 </div>

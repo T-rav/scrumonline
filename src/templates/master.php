@@ -62,7 +62,7 @@ $joinUrl = $host . "/join/";
 $joinUrl = $joinUrl . "{{ master.joinFragment }}";
 ?>
     <p>Or send them this link: <a href="<?= $joinUrl ?>"><?= $joinUrl ?></a>
-  </div>
+    <br/>  <b>{ todo : send to slack } </b>
 
   <!-- Team list and complete button -->
   <div class="col-xs-12 col-md-5" ng-if="!master.teamComplete">
