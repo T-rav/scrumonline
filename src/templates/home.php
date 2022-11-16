@@ -76,7 +76,7 @@ include "config.php";
           <div class="form-group" ng-class="{'has-error': join.idError}">
             <label>Session id:</label>
             <div class="has-feedback">
-              <input type="text" class="form-control" ng-model="join.id" ng-change="join.passwordCheck()" placeholder="4711">
+              <input type="text" class="form-control" ng-model="join.id" ng-change="join.passwordCheck()" ng-init="join.passwordCheck()" placeholder="4711">
               <span ng-if="join.idError" class="glyphicon glyphicon-remove form-control-feedback"></span>
             </div>
           </div>

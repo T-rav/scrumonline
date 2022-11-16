@@ -197,6 +197,11 @@ scrum.app.controller('JoinController', function JoinController($http, $location,
       self.idError = true;
     });
   };
+
+  // force a password check if we all good
+  /*if(!self.idError){
+    this.passwordCheck();
+  }*/
 });
 
 //------------------------------
