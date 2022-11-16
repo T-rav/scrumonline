@@ -300,9 +300,12 @@ scrum.app.controller('MasterController', function ($http, $routeParams, $locatio
   
   // Fragment for the join url
   this.joinFragment = this.id;
+  /*
+  // This creates the wrong link for nginx to render
   var token = $cookies.get('session-token-' + this.id);
   if (token)
     this.joinFragment += '?token=' + token;
+  */
 
   // Stopwatch
   var interval = 1000;

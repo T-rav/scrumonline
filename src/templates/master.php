@@ -58,7 +58,7 @@ include __DIR__ . "/../config.php";
     <h2>Invite members</h2>
     <p>Invite members to join your session. Session id: <strong ng-bind="master.id"></strong></p>
 <?php
-$joinUrl = $host . "/join/";
+$joinUrl = $host . "/?id=";
 $joinUrl = $joinUrl . "{{ master.joinFragment }}";
 ?>
     <p>Or send them this link: <a href="<?= $joinUrl ?>"><?= $joinUrl ?></a>

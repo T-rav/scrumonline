@@ -1,3 +1,5 @@
+<!-- note: this file is unreachable from a direct web link -->
+
 <div class="row" ng-controller="JoinController as join">
   <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
     <div class="panel panel-default">
